@@ -5,12 +5,6 @@ author: Flutter Team <flutter-dev@googlegroups.com>
 homepage: https://github.com/flutter/plugins/tree/master/packages/cloud_firestore
 version: 0.9.7+1
 
-flutter:
-  plugin:
-    androidPackage: io.flutter.plugins.firebase.cloudfirestore
-    iosPrefix: FLT
-    pluginClass: CloudFirestorePlugin
-
 dependencies:
   flutter:
     sdk: flutter
@@ -24,6 +18,12 @@ dev_dependencies:
   flutter_driver:
     sdk: flutter
   test: any
+  
+flutter:
+  plugin:
+    androidPackage: io.flutter.plugins.firebase.cloudfirestore
+    iosPrefix: FLT
+    pluginClass: CloudFirestorePlugin  
 
 environment:
   sdk: ">=2.0.0-dev.28.0 <3.0.0"
